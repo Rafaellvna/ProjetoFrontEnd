@@ -1,0 +1,23 @@
+PROJETO FRONTEND
+
+//CRIAR PROJETO
+npx create-next-app@latest introducao --use-npm --example https://github.com/vercel/next-learn/tree/master/basics/learn-starter(Site: https://nextjs.org/)
+npm install react-bootstrap bootstrap(Site: https://react-bootstrap.github.io/)
+
+//EXTENSÃO VSCODE
+ES7 React/Redux/React-Native snippets
+
+//EXECUTAR O PROJETO(Liga o Servidor)
+npm run dev
+
+//COMANDO PARA CRIAR COMPONENTES
+rcfe/racfe
+
+//LOOP ARRAY
+{carros.map(item => (<p>{item}</p>))}
+
+//GITHUB
+git pull -> Atualiza
+git push -> Manda para o Github
+git commit -> Manda do Github para o PC
+

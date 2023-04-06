@@ -2,6 +2,10 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import Cabecalho from './Cabecalho'
 
+{/*components = estilo da página(Letras Maiúsculas)
+   pages = rotas
+*/}
+
 const Pagina = (props) => {
     return (
         <div>
@@ -13,7 +17,9 @@ const Pagina = (props) => {
                 </Container>
             </div>
 
-            {props.children}
+            <Container>
+                {props.children}
+            </Container>
 
             <div className='bg-secondary position-fixed bottom-0 py-3 text-white text-center' style={{ width: '100%' }}>
                 <p>Todos os direitos reservados</p>

@@ -19,6 +19,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //CRIAR PROJETO
 npx create-next-app@latest introducao --use-npm --example https://github.com/vercel/next-learn/tree/master/basics/learn-starter(Site: https://nextjs.org/)
 npm install react-bootstrap bootstrap(Site: https://react-bootstrap.github.io/)
+npm i axios
 
 //EXTENSÃO VSCODE
 ES7 React/Redux/React-Native snippets
@@ -31,4 +32,15 @@ rcfe/racfe
 
 //LOOP ARRAY
 {carros.map(item => (<p>{item}</p>))}
+
+//REACT HOOKS
+const [filmes, setFilmes] = useState([])
+
+    useEffect(()=>{
+        
+        apiFilmes.get('/movie/popular').then(resultado => {
+            setFilmes(resultado.data.results)
+        })
+
+    }, [])
 

@@ -6,8 +6,8 @@ git push -> Manda para o Github
 git commit -> Manda do Github para o PC
 
 //CONFIGURANDO O GIT
-Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
-Set your email address: git config --global user.email "MY_NAME@example.com"
+set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+set your email address: git config --global user.email "MY_NAME@example.com"
 
 //ATUALIZA O NPM
 npm install -g npm@9.6.2
@@ -47,3 +47,4 @@ const [filmes, setFilmes] = useState([])
 
 //SITE API FILMES
 https://www.themoviedb.org/
+Google -> Public API github -> https://github.com/public-apis/public-apis
